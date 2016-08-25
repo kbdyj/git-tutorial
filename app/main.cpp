@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    qDebug() << "hello world.";
+    // remove debug code
 
     return a.exec();
 }
